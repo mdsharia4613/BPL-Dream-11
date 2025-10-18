@@ -1,0 +1,152 @@
+[
+    {
+        "ID": 1,
+        "Name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "role": "All-Rounder",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Slow left-arm orthodox",
+        "price": 90000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 2,
+        "Name": "Virat Kohli",
+        "country": "India",
+        "role": "Batsman",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm medium",
+        "price": 95000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 3,
+        "Name": "Babar Azam",
+        "country": "Pakistan",
+        "role": "Batsman",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "price": 88000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 4,
+        "Name": "David Warner",
+        "country": "Australia",
+        "role": "Batsman",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm legbreak",
+        "price": 87000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 5,
+        "Name": "Ben Stokes",
+        "country": "England",
+        "role": "All-Rounder",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm fast-medium",
+        "price": 88000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 6,
+        "Name": "Rashid Khan",
+        "country": "Afghanistan",
+        "role": "Bowler",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm legbreak googly",
+        "price": 75000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 7,
+        "Name": "Kane Williamson",
+        "country": "New Zealand",
+        "role": "Batsman",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "price": 80000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 8,
+        "Name": "Trent Boult",
+        "country": "New Zealand",
+        "role": "Bowler",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Left-arm fast-medium",
+        "price": 72000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 9,
+        "Name": "Litton Das",
+        "country": "Bangladesh",
+        "role": "Batsman",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "None",
+        "price": 65000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 10,
+        "Name": "Mohammad Rizwan",
+        "country": "Pakistan",
+        "role": "Wicket-Keeper",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "None",
+        "price": 80000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 11,
+        "Name": "Mehidy Hasan Miraz",
+        "country": "Bangladesh",
+        "role": "All-Rounder",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "price": 74000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 12,
+        "Name": "Kagiso Rabada",
+        "country": "South Africa",
+        "role": "Bowler",
+        "battingStyle": "Left-hand bat",
+        "bowlingStyle": "Right-arm fast",
+        "price": 82000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 13,
+        "Name": "Glenn Maxwell",
+        "country": "Australia",
+        "role": "All-Rounder",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "price": 89000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 14,
+        "Name": "Jos Buttler",
+        "country": "England",
+        "role": "Batsman",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "None",
+        "price": 85000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    },
+    {
+        "ID": 15,
+        "Name": "Taskin Ahmed",
+        "country": "Bangladesh",
+        "role": "Bowler",
+        "battingStyle": "Right-hand bat",
+        "bowlingStyle": "Right-arm fast",
+        "price": 70000,
+        "image": "https://ibb.co.com/fY8PJVLb"
+    }
+]

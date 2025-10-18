@@ -2,7 +2,7 @@ import { TbCoinFilled } from "react-icons/tb";
 import logo from "../../assets/image/logo.png"
 const Navber = ({ coins }) => {
     return (
-        <nav className="flex justify-between items-center">
+        <nav className="flex justify-between items-center ">
             <div>
                 <img src={logo} alt="" />
             </div>
