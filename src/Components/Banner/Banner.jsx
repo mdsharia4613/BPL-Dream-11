@@ -3,7 +3,7 @@ import cricket from '../../assets/image/banner-main.png'
 
 const Banner = ({ addCoin }) => {
     return (
-        <div className="banner p-10">
+        <div className="banner p-10 text-center">
             <div className=''>
                 <img className='mx-auto' src={cricket} alt="" />
             </div>

@@ -1,9 +1,9 @@
-import Available from '../AvailablePlayers/AbailablePlayers'
+import Available from '../AvailablePlayers/AvailablePlayers'
 import Selected from '../SelectedPlayers/Selectedplayers'
 
-const PlayerCard = ({ handleIsActiveState, isActive }) => {
+const PlayerCard = ({ handleIsActiveState, isActive, selactPlayers, habdleChoosePalyer }) => {
     return (
-        <div className="mt-10">
+        <div className="mt-20">
             {/* Header অংশ */}
             <div className="flex justify-between items-center">
                 <div>
@@ -38,7 +38,7 @@ const PlayerCard = ({ handleIsActiveState, isActive }) => {
 
             {/* নিচের অংশ: Conditional Render */}
             <div className="mt-6">
-                {isActive.state === 'Available' ? <Available /> : <Selected />}
+                {isActive.state === 'Available' ? <Available habdleChoosePalyer={habdleChoosePalyer} /> : <Selected selactPlayers={selactPlayers}/>}
             </div>
         </div>
     );

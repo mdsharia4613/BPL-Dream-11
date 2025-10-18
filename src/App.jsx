@@ -4,6 +4,7 @@ import './App.css'
 import Banner from './Components/Banner/Banner'
 import Navber from './Components/Navber/Navber'
 import PlayerCard from './Components/PlayerCard/PlayerCard';
+import Swal from 'sweetalert2'
 
 function App() {
   const [coins, setCoins] = useState(0);
@@ -29,11 +30,28 @@ function App() {
     }
   }
   
+  // Add player to selected
+
+  const [selactPlayers, setSelactPlayers] = useState([]);
+
+  const habdleChoosePalyer = (player) => {
+    if(selactPlayers.find(p => p.id === player.id)){
+      Swal.fire("Player already selected!");
+      return;
+    }
+    if (selactPlayers.length >= 6) {
+      Swal.fire("Cannot select more than 6 players!");
+      return;
+    }
+    setSelactPlayers([...selactPlayers, player]);
+  };
+
+  
   return (
     <>
       <Navber coins={coins} ></Navber>
       <Banner addCoin={addCoin}></Banner>
-      <PlayerCard handleIsActiveState={handleIsActiveState} isActive={isActive}></PlayerCard>
+      <PlayerCard handleIsActiveState={handleIsActiveState} isActive={isActive} selactPlayers={selactPlayers} habdleChoosePalyer={habdleChoosePalyer}></PlayerCard>
     </>
   )
 }
