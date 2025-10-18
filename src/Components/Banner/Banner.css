@@ -1,0 +1,10 @@
+.banner {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.901), rgba(0, 0, 0, 0.907)),
+        url('../../assets/image/bg-shadow.png');
+
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+}
