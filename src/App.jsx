@@ -5,6 +5,8 @@ import Banner from './Components/Banner/Banner'
 import Navber from './Components/Navber/Navber'
 import PlayerCard from './Components/PlayerCard/PlayerCard';
 import Swal from 'sweetalert2'
+import Newsletter from './Components/Newsletter/Newsletter';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [coins, setCoins] = useState(0);
@@ -52,6 +54,8 @@ function App() {
       <Navber coins={coins} ></Navber>
       <Banner addCoin={addCoin}></Banner>
       <PlayerCard handleIsActiveState={handleIsActiveState} isActive={isActive} selactPlayers={selactPlayers} habdleChoosePalyer={habdleChoosePalyer}></PlayerCard>
+      <Newsletter></Newsletter>
+      <Footer></Footer>
     </>
   )
 }

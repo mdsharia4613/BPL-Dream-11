@@ -4,7 +4,7 @@ import Selected from '../SelectedPlayers/Selectedplayers'
 const PlayerCard = ({ handleIsActiveState, isActive, selactPlayers, habdleChoosePalyer }) => {
     return (
         <div className="mt-20">
-            {/* Header অংশ */}
+            
             <div className="flex justify-between items-center">
                 <div>
                     <h2 className="font-bold text-xl">
@@ -14,7 +14,6 @@ const PlayerCard = ({ handleIsActiveState, isActive, selactPlayers, habdleChoose
                 </div>
 
                 <div className="space-x-3">
-                    {/* Available Button */}
                     <button
                         onClick={() => handleIsActiveState('Available')}
                         className={`${isActive.state === 'Available'
