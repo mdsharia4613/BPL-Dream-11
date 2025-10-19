@@ -57,4 +57,4 @@ This project is a React-based web application where users can earn coins, buy pl
 
 ## Live Demo
 
-🔗 Your Live Project Link (Surge / Netlify / Vercel)
+🔗 Your Live Project Link (https://68f51eae2e8a87a80ad5e66a--frabjous-cactus-b35037.netlify.app/)
