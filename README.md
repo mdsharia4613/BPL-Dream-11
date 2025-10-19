@@ -1,16 +1,60 @@
-# React + Vite
+## BPL Dream 11
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Build your dream cricket team, manage your player selections, and enjoy the excitement of the Bangladesh Premier League!
+This project is a React-based web application where users can earn coins, buy players, and manage their dream team according to the design and requirements given in the assignment Figma.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## React Compiler
+* This app allows users to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Earn virtual coins to buy players
 
-## Expanding the ESLint configuration
+* Select up to 6 players for their dream team
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Manage player selection with proper validation
+
+* Subscribe to the newsletter for match updates
+
+* Experience a clean, Figma-inspired UI built with React & Tailwind CSS
+
+
+## Tech Stack
+
+### Technology
+* React
+
+* Tailwind CSS
+
+* React Toastify
+
+* Figma
+
+## Core Features
+
+### Player Management
+
+* Choose from 10–15 available players.
+* Add up to 6 unique players to your dream team.
+* Duplicate selections are prevented with alerts.
+
+### Coin System
+
+* Start with 0 coins.
+* Click “Claim Free Credit” to earn 15,000 coins each time.
+* Players can only be selected if the user has enough coins.
+
+### Two Tabs System
+
+* Available Players: All available players listed in a 3-column grid.
+
+* Selected Players: Displays chosen players with “Remove” option.
+
+### Footer Section
+
+* Figma-styled footer with logo, quick links, and social media icons.
+
+
+## Live Demo
+
+🔗 Your Live Project Link (Surge / Netlify / Vercel)
